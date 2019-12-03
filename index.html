@@ -10,7 +10,10 @@
 <script src ="ex06-7.js"></script>
 <script src ="ex06-8.js"></script>
 <script src ="ex06-9.js"></script>
+<script src ="ex06-10.js"></script>
 <script src ="ex07-1.js"></script>
+<script src ="ex07-3.js"></script>
+<script src ="ex07-5.js"></script>
 </head>
 <body>
 <h1> 変数の練習65</h1>
@@ -38,6 +41,15 @@
 onclick="txtchange1();">
 城西大学</div>
 
+<h1>タイマーイベントによる実行6-10</h1>
+<form name="timer">
+<input type="button"value="スタート"
+onclick="startfnc()">
+<br>
+<input type="text"name="moji"size="30"
+value=""></foem>
+
+
 
 <form name="timer">
 <input type="button"value="スタート"
@@ -50,6 +62,21 @@ value=""></form>
 <input type="button"value="あいさつ"
 onclick="sayhello71();">
 <p>誰？<input type="text"id="who"></p>
+
+<h1>足し算</h1>
+<p>
+<input tpe="text"id="input1">+<input type="text"id="input2">
+<input type="button"value="計算"onclick="add();">
+</p>
+
+<h1>なぞなぞ</h1>
+<p>目を閉じていない見られないものはなーに？</p>
+<p>
+答（漢字１文字で）:<input type="text"id="answer">
+<input type="button"value="解答"onclick="nazo();">
+</p>
+
+
 
 
 
