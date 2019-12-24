@@ -11,9 +11,17 @@
 <script src ="ex06-8.js"></script>
 <script src ="ex06-9.js"></script>
 <script src ="ex06-10.js"></script>
+<script src ="ex06-11.js"></script>
+<script src ="ex06-12.js"></script>
+<script src ="ex06-13.js"></script>
 <script src ="ex07-1.js"></script>
 <script src ="ex07-3.js"></script>
 <script src ="ex07-5.js"></script>
+<script src ="ex07-8.js"></script>
+<script src ="ex08-1.js"></script>
+<script src ="ex09-2.js"></script>
+
+
 </head>
 <body>
 <h1> 変数の練習65</h1>
@@ -40,17 +48,21 @@
 <input type="button"value="テキストの変更"
 onclick="txtchange1();">
 城西大学</div>
+<div id="image1">
+<input type="button"value="画像の変更"
+onclick="imagchange1();">
+<img src='./image/josai.png'id="logo"alt="josaiLogo"></div>
 
 <h1>タイマーイベントによる実行6-10</h1>
+<form><input type="button"value="Timer"
+onclick="setTimeout('mes()',3000)"></form>
 <form name="timer">
 <input type="button"value="スタート"
-onclick="startfnc()">
+onclick="hyoji()">
 <br>
 <input type="text"name="moji"size="30"
-value=""></foem>
-
-
-
+value=""></form>
+<h1>タイマーイベントによる実行6-11</h1>
 <form name="timer">
 <input type="button"value="スタート"
 onclick="startfnc()">
@@ -58,7 +70,18 @@ onclick="startfnc()">
 <input type="text" name="moji"size="30"
 value=""></form>
 
-<h1テキスト入力の練習</h1>
+<h1>タイマーイベントによる実行6-12</h1>
+
+<input type="button"value="3秒で変更"
+onclick="imagchange1();">
+<img src='./image/josai.png'id="logo"alt="josaiLogo"></div>
+
+
+<h1>タイマーイベントによる実行の応用6-13</h1>
+
+
+
+<h1>テキスト入力の練習7-1</h1>
 <input type="button"value="あいさつ"
 onclick="sayhello71();">
 <p>誰？<input type="text"id="who"></p>
@@ -75,6 +98,22 @@ onclick="sayhello71();">
 答（漢字１文字で）:<input type="text"id="answer">
 <input type="button"value="解答"onclick="nazo();">
 </p>
+
+<input type="text"id="answer">
+<input type="button"value="解答"onclick="nazo();">
+
+<h1>血液型を当てる08-1</h1>
+<p>あなたの血液型にAという文字はふくまれていますか？(yes/no)
+<input type="text"id="a"></p>
+<p>あなたの血液型にBという文字はふくまれていますか？(yes/no)
+<input type="text"id="b"></p>
+<p><input type="button"value="判定"onclick="bloodtype();"></p>
+
+<h1>JavaScriptの変数とデバッガを理解09-2</h1><p>
+下のボタンを押すと数字が表示されます</p>
+<p><input type="button"value="実行ボタン"
+onclick="addCount()"></p>
+
 
 
 
