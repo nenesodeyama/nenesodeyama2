@@ -1,0 +1,31 @@
+<h1>タイマーイベントによる実行6-10</h1>
+<form><input type="button"value="Timer"
+onclick="setTimeout('mes()',3000)"></form>
+<form name="timer">
+<input type="button"value="スタート"
+onclick="hyoji()">
+<br>
+<input type="text"name="moji"size="30"
+value=""></form>
+
+<h1>タイマーイベントによる実行6-11</h1>
+
+<form name="timer">
+<input type="button"value="スタート"
+onclick="startfnc()">
+<br>
+<input type="text" name="moji"size="30"
+value=""></form>
+
+
+<h1>タイマーイベントによる実行6-12</h1>
+
+<input type="button"value="3秒で変更"
+onclick="imagchange1();">
+<img src='./image/josai.png'id="logo"alt="josaiLogo"></div>
+
+
+<h1>タイマーイベントによる実行の応用6-13</h1>
+<input type="button"value="変更後3秒でまた戻る"
+onclick="imagchange1();">
+<img src='./image/josai.png'id="logo"alt="josaiLogo"></div>
